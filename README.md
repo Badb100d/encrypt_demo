@@ -10,4 +10,4 @@ cat secret.txt | openssl enc -e -aes256 -out encrypted_data
 cat encrypted_data | openssl enc -d -aes256 -out secret.txt
 ```
 
-Demo file is encrypted by my old common password.
+Demo file is encrypted using my old common password.
